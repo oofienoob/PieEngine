@@ -1,8 +1,8 @@
-package;
+package pie.game;
 
 import flixel.graphics.FlxGraphic;
 #if desktop
-import Discord.DiscordClient;
+import pie.system.Discord.DiscordClient;
 #end
 import Section.SwagSection;
 import Song.SwagSong;
@@ -57,9 +57,10 @@ import flixel.animation.FlxAnimationController;
 import animateatlas.AtlasFrameMaker;
 import Achievements;
 import StageData;
-import FunkinLua;
+import pie.game.FunkinLua;
 import DialogueBoxPsych;
-import Conductor.Rating;
+import pie.system.Conductor.Rating;
+import pie.system.Conductor;
 
 #if !flash 
 import flixel.addons.display.FlxRuntimeShader;

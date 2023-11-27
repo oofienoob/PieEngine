@@ -1,7 +1,7 @@
 package;
 
 #if desktop
-import Discord.DiscordClient;
+import pie.system.Discord.DiscordClient;
 #end
 import flixel.FlxG;
 import flixel.FlxObject;

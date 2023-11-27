@@ -12,6 +12,7 @@ import sys.FileSystem;
 #else
 import openfl.utils.Assets;
 #end
+import pie.game.PlayState;
 
 using StringTools;
 

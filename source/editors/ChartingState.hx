@@ -1,13 +1,14 @@
 package editors;
 
 #if desktop
-import Discord.DiscordClient;
+import pie.system.Discord.DiscordClient;
 #end
 import flash.geom.Rectangle;
 import haxe.Json;
 import haxe.format.JsonParser;
 import haxe.io.Bytes;
-import Conductor.BPMChangeEvent;
+import pie.system.Conductor.BPMChangeEvent;
+import pie.system.Conductor;
 import Section.SwagSection;
 import Song.SwagSong;
 import flixel.FlxG;
@@ -46,6 +47,7 @@ import openfl.media.Sound;
 import openfl.net.FileReference;
 import openfl.utils.Assets as OpenFlAssets;
 import openfl.utils.ByteArray;
+import pie.game.PlayState;
 
 using StringTools;
 #if sys

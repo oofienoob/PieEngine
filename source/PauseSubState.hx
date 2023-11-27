@@ -14,6 +14,8 @@ import flixel.tweens.FlxTween;
 import flixel.util.FlxColor;
 import flixel.FlxCamera;
 import flixel.util.FlxStringUtil;
+import pie.game.*;
+import pie.system.*;
 
 class PauseSubState extends MusicBeatSubstate
 {

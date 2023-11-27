@@ -1,4 +1,4 @@
-package;
+package pie.game;
 
 import openfl.display.BitmapData;
 #if LUA_ALLOWED
@@ -47,6 +47,8 @@ import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
 
+import pie.system.Conductor;
+
 #if hscript
 import hscript.Parser;
 import hscript.Interp;
@@ -54,7 +56,7 @@ import hscript.Expr;
 #end
 
 #if desktop
-import Discord;
+import pie.system.Discord;
 #end
 
 using StringTools;

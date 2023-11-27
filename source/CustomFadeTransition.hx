@@ -1,6 +1,7 @@
 package;
 
-import Conductor.BPMChangeEvent;
+import pie.system.Conductor.BPMChangeEvent;
+import pie.system.Conductor;
 import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 import flixel.math.FlxRect;

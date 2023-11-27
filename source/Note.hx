@@ -7,6 +7,8 @@ import flixel.math.FlxMath;
 import flixel.util.FlxColor;
 import flash.display.BitmapData;
 import editors.ChartingState;
+import pie.game.PlayState;
+import pie.system.Conductor;
 
 using StringTools;
 

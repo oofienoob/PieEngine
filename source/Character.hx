@@ -17,6 +17,8 @@ import openfl.utils.AssetType;
 import openfl.utils.Assets;
 import haxe.Json;
 import haxe.format.JsonParser;
+import pie.game.*;
+import pie.system.*;
 
 using StringTools;
 

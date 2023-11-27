@@ -9,6 +9,8 @@ import flixel.util.FlxColor;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
+import pie.game.*;
+import pie.system.Conductor;
 
 class GameOverSubstate extends MusicBeatSubstate
 {

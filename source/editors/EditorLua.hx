@@ -26,9 +26,11 @@ import sys.io.File;
 import Type.ValueType;
 import Controls;
 import DialogueBoxPsych;
+import pie.game.*;
+import pie.system.Conductor;
 
 #if desktop
-import Discord;
+import pie.system.Discord;
 #end
 
 using StringTools;
@@ -180,7 +182,7 @@ class EditorLua {
 			}
 		});
 
-		Discord.DiscordClient.addLuaCallbacks(lua);
+		pie.system.Discord.DiscordClient.addLuaCallbacks(lua);
 
 		call('onCreate', []);
 		#end

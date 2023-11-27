@@ -15,6 +15,7 @@ import flixel.util.FlxTimer;
 import flixel.group.FlxSpriteGroup;
 import animateatlas.AtlasFrameMaker;
 import flixel.util.FlxSort;
+import pie.game.*;
 
 class CutsceneHandler extends FlxBasic
 {

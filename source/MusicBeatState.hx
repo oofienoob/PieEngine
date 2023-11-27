@@ -1,6 +1,7 @@
 package;
 
-import Conductor.BPMChangeEvent;
+import pie.system.Conductor.BPMChangeEvent;
+import pie.system.Conductor;
 import flixel.FlxG;
 import flixel.addons.ui.FlxUIState;
 import flixel.math.FlxRect;
@@ -14,6 +15,7 @@ import flixel.util.FlxGradient;
 import flixel.FlxState;
 import flixel.FlxCamera;
 import flixel.FlxBasic;
+import pie.game.*;
 
 class MusicBeatState extends FlxUIState
 {
