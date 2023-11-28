@@ -1036,11 +1036,6 @@ class PlayState extends MusicBeatState
 		timeTxt.borderSize = 2;
 		timeTxt.visible = showTime;
 		if(ClientPrefs.downScroll) timeTxt.y = FlxG.height - 44;
-
-		if(ClientPrefs.timeBarType == 'Song Name')
-		{
-			timeTxt.text = SONG.song;
-		}
 		updateTime = showTime;
 
 		timeBarBG = new AttachedSprite('timeBar');
@@ -3120,8 +3115,12 @@ class PlayState extends MusicBeatState
 					var secondsTotal:Int = Math.floor(songCalc / 1000);
 					if(secondsTotal < 0) secondsTotal = 0;
 
-					if(ClientPrefs.timeBarType != 'Song Name')
-						timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
+					switch(ClientPrefs.timeBarType) {
+						case 'Song Name':
+							timeTxt.text = SONG.song;
+						default:
+							timeTxt.text = FlxStringUtil.formatTime(secondsTotal, false);
+					}
 				}
 			}
 
